@@ -16,6 +16,7 @@ export default function BlogHero() {
                                     alt="Books and cozy setting"
                                     fill
                                     className="object-cover"
+                                    sizes="(min-width: 1024px) 580px, (min-width: 768px) 450px, 150px"
                                     priority
                                 />
                             </div>

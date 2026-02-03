@@ -13,6 +13,7 @@ export default function Hero() {
                             alt="Hero Image"
                             fill
                             className="object-cover"
+                            sizes="(min-width: 1024px) 650px, (min-width: 768px) 500px, 90vw"
                             priority
                         />
                     </div>

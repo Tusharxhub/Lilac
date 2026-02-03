@@ -21,6 +21,7 @@ export default function SymptomsSection() {
                         alt="Symptoms Image"
                         fill
                         className="object-cover"
+                        sizes="(min-width: 768px) 50vw, 100vw"
                     />
                 </ScrollReveal>
             </div>

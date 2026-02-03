@@ -38,6 +38,7 @@ export default function BioSection() {
                                 alt="Bio Image"
                                 fill
                                 className="object-cover"
+                                sizes="(min-width: 1024px) 550px, (min-width: 768px) 450px, 350px"
                             />
                         </div>
 
@@ -61,6 +62,7 @@ export default function BioSection() {
                                 alt="Bio Overlay"
                                 fill
                                 className="object-cover"
+                                sizes="(min-width: 1024px) 400px, (min-width: 768px) 250px, 0px"
                             />
                         </div>
                     </ScrollReveal>

@@ -17,6 +17,7 @@ export default function BlogGrid() {
                                     alt={post.title}
                                     fill
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"
+                                    sizes="(min-width: 1024px) 40vw, (min-width: 768px) 50vw, 100vw"
                                 />
                             </Link>
 

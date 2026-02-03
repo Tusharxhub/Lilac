@@ -76,6 +76,7 @@ export default function SocialGrid() {
                                     alt={`Social Media ${index + 1}`}
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                    sizes="(min-width: 1024px) 25vw, (min-width: 768px) 25vw, 50vw"
                                 />
                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
                             </ScrollReveal>
@@ -142,7 +143,6 @@ export default function SocialGrid() {
                                         width={800}
                                         height={1000}
                                         className="object-contain max-h-[85vh] w-auto h-auto"
-                                        priority
                                     />
                                 </motion.div>
                             </AnimatePresence>

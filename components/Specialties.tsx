@@ -45,6 +45,7 @@ export default function Specialties() {
                                     fill
                                     className="object-cover"
                                     style={{ objectPosition: item.pos }}
+                                    sizes="(min-width: 1024px) 420px, (min-width: 768px) 420px, 312px"
                                 />
                             </div>
                         </div>

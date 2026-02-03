@@ -4,14 +4,6 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { useEffect } from "react";
-
-// Fix for default marker icon in Next.js
-const icon = L.icon({
-    iconUrl: "/marker-icon.png",
-    shadowUrl: "/marker-shadow.png",
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-});
 // Since we might not have these assets locally, let's use CDN for marker icons or just rely on Leaflet defaults and fix the import issue.
 // A common fix is deleting the _getIconUrl property from L.Icon.Default.prototype.
 

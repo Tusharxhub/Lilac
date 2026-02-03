@@ -41,6 +41,7 @@ export default function FAQSection() {
                                 alt="FAQ Image"
                                 fill
                                 className="object-cover"
+                                sizes="(min-width: 1024px) 650px, (min-width: 768px) 650px, 400px"
                             />
                         </div>
                     </ScrollReveal>

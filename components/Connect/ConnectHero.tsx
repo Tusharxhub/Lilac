@@ -39,6 +39,7 @@ export default function ConnectHero() {
                                     alt="Connect Hero Image"
                                     fill
                                     className="object-cover"
+                                    sizes="(min-width: 1024px) 280px, (min-width: 768px) 220px, 200px"
                                 />
                             </div>
 
@@ -49,6 +50,7 @@ export default function ConnectHero() {
                                     alt="Connect Secondary Image"
                                     fill
                                     className="object-cover"
+                                    sizes="(min-width: 1024px) 192px, (min-width: 768px) 128px, 144px"
                                 />
                             </div>
                         </ScrollReveal>
