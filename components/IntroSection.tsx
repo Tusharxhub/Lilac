@@ -30,7 +30,7 @@ export default function IntroSection() {
                 </div>
 
                 {/* Get in touch button bar */}
-                <Link href="/connect" className="w-full border-t font-bold border-lilac-green/20 py-8 text-xs tracking-[0.2em] uppercase text-lilac-green hover:bg-lilac-green hover:text-lilac-beige transition-colors duration-300 flex items-center justify-center gap-2">
+                <Link href="/connect" className="btn-hover w-full border-t font-bold border-lilac-green/20 py-8 text-xs tracking-[0.2em] uppercase text-lilac-green hover:bg-lilac-green hover:text-lilac-beige transition-colors duration-300 flex items-center justify-center gap-2">
                     Get in touch &rarr;
                 </Link>
             </div>

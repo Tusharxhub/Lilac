@@ -22,7 +22,7 @@ export default function BioSection() {
                     </ScrollReveal>
 
                     <ScrollReveal delay={0.4} width="100%">
-                        <Link href="/connect" className="mt-12 md:mt-12 lg:mt-[5.5rem] mx-auto md:ml-32 lg:ml-48 block w-fit border border-lilac-green px-8 py-3 text-xs tracking-[0.2em] uppercase hover:bg-lilac-green hover:text-lilac-beige transition-colors duration-300 font-bold">
+                        <Link href="/connect" className="btn-hover mt-12 md:mt-12 lg:mt-[5.5rem] mx-auto md:ml-32 lg:ml-48 block w-fit border border-lilac-green px-8 py-3 text-xs tracking-[0.2em] uppercase hover:bg-lilac-green hover:text-lilac-beige transition-colors duration-300 font-bold">
                             Let’s Chat →
                         </Link>
                     </ScrollReveal>

@@ -61,7 +61,7 @@ export default function SymptomsSection() {
 
                 <ScrollReveal delay={0.7} width="100%">
                     <div className="w-full border-t border-lilac-green/20">
-                        <Link href="/connect" className="w-full py-8 text-xs md:text-sm tracking-[0.2em] uppercase text-lilac-green hover:bg-lilac-green hover:text-lilac-beige transition-colors duration-300 flex justify-center items-center gap-2 font-bold block text-center">
+                        <Link href="/connect" className="btn-hover w-full py-8 text-xs md:text-sm tracking-[0.2em] uppercase text-lilac-green hover:bg-lilac-green hover:text-lilac-beige transition-colors duration-300 flex justify-center items-center gap-2 font-bold block text-center">
                             Work With Me &rarr;
                         </Link>
                     </div>

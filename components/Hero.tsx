@@ -33,7 +33,7 @@ export default function Hero() {
                     </p>
                 </ScrollReveal>
                 <ScrollReveal delay={0.4}>
-                    <button className="border border-lilac-green font-bold px-10 py-4 text-xs md:text-sm tracking-[0.2em] uppercase hover:bg-lilac-green hover:text-lilac-cream transition-colors duration-300 font-medium">
+                    <button className="btn-hover border border-lilac-green font-bold px-10 py-4 text-xs md:text-sm tracking-[0.2em] uppercase hover:bg-lilac-green hover:text-lilac-cream transition-colors duration-300 font-medium">
                         Connect with me &rarr;
                     </button>
                 </ScrollReveal>

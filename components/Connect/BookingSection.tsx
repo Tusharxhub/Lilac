@@ -18,12 +18,12 @@ export default function BookingSection() {
             <ScrollReveal delay={0.3} width="100%" className="w-full flex flex-col items-center">
                 {/* Placeholder for Widget */}
                 {/* Matched to screenshot: white box, shadow, smaller, centered */}
-                <div className="w-full max-w-[500px] bg-white px-5 py-10 shadow-lg border border-gray-100 flex flex-col items-center justify-center gap-4 min-h-[300px]">
+                <div className="card-hover w-full max-w-[500px] bg-white px-5 py-10 shadow-lg border border-gray-100 flex flex-col items-center justify-center gap-4 min-h-[300px]">
                     <h3 className="text-lg md:text-xl font-bold text-black tracking-tight">This page is not active</h3>
                     <p className="text-xs md:text-sm text-gray-500 max-w-xs text-center leading-relaxed">
                         If you're the owner, please log into your account to start a free trial or subscribe.
                     </p>
-                    <button className="bg-black text-white px-6 py-3 text-[10px] tracking-[0.2em] font-bold uppercase mt-2 hover:opacity-80 transition-opacity">
+                    <button className="btn-hover bg-black text-white px-6 py-3 text-[10px] tracking-[0.2em] font-bold uppercase mt-2 hover:opacity-80 transition-opacity">
                         Go to Account
                     </button>
                 </div>

@@ -60,7 +60,7 @@ export default function ConnectHero() {
                 {/* Right Content: Note Box */}
                 <div className="w-full md:w-1/2 flex justify-center md:justify-start items-center md:items-start md:mt-48 lg:mt-64">
                     <ScrollReveal delay={0.4} className="w-full max-w-xl lg:max-w-2xl">
-                        <div className="bg-lilac-green p-8 md:p-8 lg:p-12 text-lilac-cream text-base md:text-base lg:text-lg font-sans leading-relaxed w-full shadow-lg">
+                        <div className="card-hover bg-lilac-green p-8 md:p-8 lg:p-12 text-lilac-cream text-base md:text-base lg:text-lg font-sans leading-relaxed w-full shadow-lg">
                             <p>
                                 <span className="font-bold block mb-4 text-xl md:text-xl lg:text-2xl text-lilac-lavender">PLEASE NOTE:</span>
                                 If you opt to use a “Form Block” on your contact page this is not HIPAA-compliant. Squarespace stores data that is input into forms in the Marketing tab under Profiles. Instead, you can embed a HIPAA-compliant form, a link to your client portal, or simply put your email address.

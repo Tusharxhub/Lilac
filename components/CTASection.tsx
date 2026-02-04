@@ -22,7 +22,7 @@ export default function CTASection() {
                     <div className="mt-8">
                         <Link
                             href="/connect"
-                            className="border border-lilac-cream px-7 py-4 text-xs tracking-[0.2em] uppercase text-lilac-cream hover:bg-lilac-cream hover:text-[#7A7A48] transition-colors duration-300 font-medium"
+                            className="btn-hover border border-lilac-cream px-7 py-4 text-xs tracking-[0.2em] uppercase text-lilac-cream hover:bg-lilac-cream hover:text-[#7A7A48] transition-colors duration-300 font-medium"
                         >
                             Get In Touch &rarr;
                         </Link>

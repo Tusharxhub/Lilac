@@ -33,7 +33,7 @@ export default function Specialties() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-8 h-full">
                 {specialties.map((item, index) => (
                     <ScrollReveal key={index} delay={index * 0.2} width="100%" className="h-full">
-                        <div className="bg-lilac-beige p-8 pb-12 flex flex-col gap-6 border border-lilac-green h-full min-h-[350px] min-[400px]:min-h-[420px] md:min-h-[450px] lg:min-h-[500px] items-center text-center md:text-left md:items-start relative">
+                        <div className="card-hover bg-lilac-beige p-8 pb-12 flex flex-col gap-6 border border-lilac-green h-full min-h-[350px] min-[400px]:min-h-[420px] md:min-h-[450px] lg:min-h-[500px] items-center text-center md:text-left md:items-start relative">
                             <h3 className="text-2xl md:text-1xl text-lilac-green font-serif font-semibold tracking-tight">{item.title}</h3>
                             <p className="text-sm md:text-1x1 text-lilac-green leading-relaxed font-sans font-semibold min-h-[80px]">
                                 {item.description}
